@@ -8,6 +8,9 @@ import StateMerge from './lec3012/statemgmt3';
 import Purefunc from './lec3112/purefunc';
 import MyButton3 from './lec3112/purefunc2';
 import FuncComp1 from './lec3112/hookcomp';
+import StateExample from './lec3112/hooks2';
+import StateExample1 from './lec61/hookexample2';
+import StateExample2 from './lec61/hooksexample3';
 
 
 createRoot(document.getElementById('root')).render(
@@ -24,6 +27,7 @@ createRoot(document.getElementById('root')).render(
     {/* <MyButton3 abc={true} def={"hello"}/> */}
     {/* <MyButton3 abc={true} />
     <MyButton3 abc={"xyzzzzzz"} /> */}
-    <FuncComp1 />
+    {/* <FuncComp1 /> */}
+    <StateExample2/>
      </StrictMode>,
 )
